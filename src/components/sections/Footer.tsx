@@ -1,9 +1,7 @@
 import React from "react";
 import Link from "next/link";
 
-type FooterProps = {};
-
-export default function Footer({}: FooterProps) {
+export default function Footer() {
     return (
         <footer className="text-gray-500 py-4 text-[.7rem]">
             <div className="max-w-[1320px] mx-auto">

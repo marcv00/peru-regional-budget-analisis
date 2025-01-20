@@ -2,9 +2,7 @@ import React from "react";
 import HeroTitle from "../texts/HeroTitle";
 import HeroDescription from "../texts/HeroDescription";
 
-type HeroInfoProps = {};
-
-export default function HeroInfo({}: HeroInfoProps) {
+export default function HeroInfo() {
     return (
         <div className="w-1/2">
             <div className="w-[95%] mx-auto">

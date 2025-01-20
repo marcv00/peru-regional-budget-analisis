@@ -3,9 +3,7 @@ import React, { useState } from "react";
 import Link from "next/link";
 import departamentos from "@/data/departamentos";
 
-type HeaderProps = {};
-
-export default function Header({}: HeaderProps) {
+export default function Header() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
 
     const toggleMenu = () => {

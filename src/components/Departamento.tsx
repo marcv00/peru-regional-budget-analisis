@@ -18,7 +18,7 @@ export default function Departamento({
     name,
     slug,
     path,
-    fillColor = "white",
+
     x,
     y,
     setTooltip,
