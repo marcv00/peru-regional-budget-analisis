@@ -183,8 +183,8 @@ const gradients: Gradients = {
             <stop offset="100%" stopColor="#AC9557" />
         </linearGradient>
     ),
-    cuzco: (
-        <linearGradient id="cuzco-gradient" x1="48%" y1="65%" x2="52%" y2="40%">
+    cusco: (
+        <linearGradient id="cusco-gradient" x1="48%" y1="65%" x2="52%" y2="40%">
             <stop offset="11%" stopColor="#AC9557" />
             <stop offset="93%" stopColor="#247C3F" />
         </linearGradient>

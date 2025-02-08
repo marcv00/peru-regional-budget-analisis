@@ -23,7 +23,7 @@ export default function RootLayout({
     return (
         <html lang="en" className="light">
             <body
-                className={`${raleway.variable} font-raleway antialiased h-screen flex flex-col justify-between`}
+                className={`${raleway.variable} font-raleway antialiased h-lvh flex flex-col justify-between`}
             >
                 <Header />
                 {children}

@@ -2,7 +2,7 @@ import HeroWrapper from "@/components/sections/HeroWrapper";
 
 export default function Home() {
     return (
-        <main>
+        <main className="h-full flex items-center">
             <HeroWrapper />
         </main>
     );
